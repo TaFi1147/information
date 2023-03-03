@@ -1,0 +1,87 @@
+h1 {
+
+	color: #fff;
+}
+body, html {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+	background: url(nen.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+img {
+ margin-top: 10px;
+ width: 120px;
+ height: 120px;
+margin-left: 10px;
+}
+header {
+	margin-top: 1em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header > img {
+	text-align: center;
+	align-items: center;
+	width: 9em;
+	height: 9em;
+	border-radius: 100%;
+	border: 2px solid #fff;
+	box-shadow: red 0px 2px 8px 0px; 
+}
+header > h1 {
+	text-align: center;
+	align-items: center;
+	display: inline-block;
+	font-size: x-large;
+	font-weight: bold;
+	border-radius: 0.8em;
+	background-color: #000 ;
+	color: #fff;
+	padding: 0.3em 0.5em;
+	border: 1.5px solid #fffa;
+}
+ul > a > button{
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: large;
+	width: min(100% - 30px, 840px);
+	margin-inline: auto;
+	background-color: #fff;
+	color: #252525;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 5px 0 #252525;
+	transition: .5s;
+	padding: 10px;
+	margin: 10px;
+}
+button:active{
+	box-shadow: none;
+	transform: translateY(5px);
+}
+
+ul {
+	text-align: center;
+	padding: auto;
+}
+p {
+
+	text-align: center;
+	color: #fff;
+}
+.cuoi {
+	margin-top:5px ;
+	text-align: center;
+	color: #fff;
+}
+.final{
+	text-align: center;
+}
